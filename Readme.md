@@ -14,3 +14,7 @@ Set the following environment variables:
 ```Bash
 docker run -d -p 80:80 -e APP_NAME="example" -e CONSUL_URL="127.0.0.1:8500" johscheuer/docker-nginx-loadbalancer
 ```
+
+## Todo
+
+Use nginx alpine instead of default nginx
